@@ -1,0 +1,111 @@
+################################################
+SVM melhores parâmetros: {'C': 1, 'gamma': 1, 'kernel': 'poly'}
+SVM melhor acurácia com validação cruzada: 0.2766
+Reporte de Classificação:
+              precision    recall  f1-score   support
+
+           0       0.25      0.24      0.24      2017
+           1       0.38      0.21      0.27      2020
+           2       0.25      0.25      0.25      1991
+           3       0.27      0.21      0.24      1983
+           4       0.27      0.48      0.35      1989
+
+    accuracy                           0.28     10000
+   macro avg       0.29      0.28      0.27     10000
+weighted avg       0.29      0.28      0.27     10000
+
+Matriz de Confusão:
+[[474 157 371 347 668]
+ [351 426 421 244 578]
+ [372 219 494 246 660]
+ [368 209 353 423 630]
+ [301 119 338 282 949]]
+################################################
+KNN melhor número de vizinhos 7
+KNN melhor acurácia com validação cruzada: 0.34935
+Reporte de Classificação:
+              precision    recall  f1-score   support
+
+           0       0.25      0.24      0.24      2017
+           1       0.38      0.21      0.27      2020
+           2       0.25      0.25      0.25      1991
+           3       0.27      0.21      0.24      1983
+           4       0.27      0.48      0.35      1989
+
+    accuracy                           0.28     10000
+   macro avg       0.29      0.28      0.27     10000
+weighted avg       0.29      0.28      0.27     10000
+
+Matriz de Confusão:
+[[474 157 371 347 668]
+ [351 426 421 244 578]
+ [372 219 494 246 660]
+ [368 209 353 423 630]
+ [301 119 338 282 949]]
+################################################
+Random Forest melhor acurácia com validação cruzada: 0.371
+Random Forest melhores parâmetros: {'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}
+Reporte de Classificação:
+              precision    recall  f1-score   support
+
+           0       0.25      0.24      0.24      2017
+           1       0.38      0.21      0.27      2020
+           2       0.25      0.25      0.25      1991
+           3       0.27      0.21      0.24      1983
+           4       0.27      0.48      0.35      1989
+
+    accuracy                           0.28     10000
+   macro avg       0.29      0.28      0.27     10000
+weighted avg       0.29      0.28      0.27     10000
+
+Matriz de Confusão:
+[[474 157 371 347 668]
+ [351 426 421 244 578]
+ [372 219 494 246 660]
+ [368 209 353 423 630]
+ [301 119 338 282 949]]
+################################################
+Decision Tree melhor acurácia com validação cruzada: 0.3086
+Decision Tree melhores parâmetros: {'criterion': 'gini', 'max_depth': 10, 'min_samples_split': 5}
+Reporte de Classificação:
+              precision    recall  f1-score   support
+
+           0       0.25      0.24      0.24      2017
+           1       0.38      0.21      0.27      2020
+           2       0.25      0.25      0.25      1991
+           3       0.27      0.21      0.24      1983
+           4       0.27      0.48      0.35      1989
+
+    accuracy                           0.28     10000
+   macro avg       0.29      0.28      0.27     10000
+weighted avg       0.29      0.28      0.27     10000
+
+Matriz de Confusão:
+[[474 157 371 347 668]
+ [351 426 421 244 578]
+ [372 219 494 246 660]
+ [368 209 353 423 630]
+ [301 119 338 282 949]]
+################################################
+Gradient Boosting melhor acurácia com validação cruzada: 0.3568
+Gradient Boosting melhores parâmetros: {'learning_rate': 1.0, 'max_depth': 3, 'n_estimators': 200}
+Reporte de Classificação:
+              precision    recall  f1-score   support
+
+           0       0.25      0.24      0.24      2017
+           1       0.38      0.21      0.27      2020
+           2       0.25      0.25      0.25      1991
+           3       0.27      0.21      0.24      1983
+           4       0.27      0.48      0.35      1989
+
+    accuracy                           0.28     10000
+   macro avg       0.29      0.28      0.27     10000
+weighted avg       0.29      0.28      0.27     10000
+
+Matriz de Confusão:
+[[474 157 371 347 668]
+ [351 426 421 244 578]
+ [372 219 494 246 660]
+ [368 209 353 423 630]
+ [301 119 338 282 949]]
+################################################
